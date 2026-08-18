@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-ts-vitest-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+   "scripts": {
+    "test": "vitest run"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piragineemi/nodejs-ts-vitest-experiment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piragineemi/nodejs-ts-vitest-experiment/issues"
+  },
+  "homepage": "https://github.com/piragineemi/nodejs-ts-vitest-experiment#readme",
+  "description": ""
+}
