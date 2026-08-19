@@ -4,19 +4,19 @@ import { Alumno } from "../src/Alumno";
 describe("Alumno", () => {
 
   test("un alumno de 18 años debe ser mayor de edad", () => {
-    const alumno = new Alumno("Juan", 18);
+    const alumno = new Alumno("Juan", 18, 103293);
 
     expect(alumno.esMayorDeEdad()).toBe(true);
   });
 
   test("un alumno de 25 años debe ser mayor de edad", () => {
-    const alumno = new Alumno("Ana", 25);
+    const alumno = new Alumno("Ana", 25,8232823);
 
     expect(alumno.esMayorDeEdad()).toBe(true);
   });
 
-  test("un alumno de 18 años debe ser mayor de edad", () => {
-    const alumno = new Alumno("Pedro", 18);
+  test("un alumno de 18 años no debe ser mayor de edad", () => {
+    const alumno = new Alumno("Pedro", 17, 1239213);
 
     expect(alumno.esMayorDeEdad()).toBe(true);
   });
