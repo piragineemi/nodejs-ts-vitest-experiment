@@ -15,8 +15,8 @@ describe("Alumno", () => {
     expect(alumno.esMayorDeEdad()).toBe(true);
   });
 
-  test("un alumno de 18 años no debe ser mayor de edad", () => {
-    const alumno = new Alumno("Pedro", 17, 1239213);
+  test("un alumno de 18 años debe ser mayor de edad", () => {
+    const alumno = new Alumno("Pedro", 18, 1239213);
 
     expect(alumno.esMayorDeEdad()).toBe(true);
   });
