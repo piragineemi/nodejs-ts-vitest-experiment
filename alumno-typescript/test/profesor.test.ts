@@ -9,5 +9,6 @@ describe("Profesor", () => {
     expect(profesor.nombre).toBe("Dr. García");
     expect(profesor.legajo).toBe(77707);
   });
+  
 
 });
