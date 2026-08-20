@@ -1,10 +1,6 @@
-export class Persona {
+export class persona {
   constructor(
     public nombre: string,
     public legajo: number
   ) {}
-
- 
 }
-
-

@@ -1,25 +1,27 @@
 import { describe, expect, test } from "vitest";
-import { Profesor } from "../src/Profesor";
+import { profesor } from "../src/profesor";
 
-describe("Profesor", () => {
+describe("profesor", () => {
 
   test("un profesor debe tener un nombre y legajo", () => {
-    const profesor = new Profesor("Dr. García", 77707);
+    const profe = new profesor("Dr. García", 77707);
 
-    expect(profesor.nombre).toBe("Dr. García");
-    expect(profesor.legajo).toBe(77707);
+    expect(profe.nombre).toBe("Dr. García");
+    expect(profe.legajo).toBe(77707);
   });
 
-   test("un profesor debe tener un nombre y legajo", () => {
-    const profesor = new Profesor("Dr. Ramirez", 20000);
+  test("un profesor debe tener un nombre y legajo", () => {
+    const profe = new profesor("Dr. Ramirez", 20000);
 
-    expect(profesor.nombre).toBe("Dr. Ramirez");
-    expect(profesor.legajo).toBe(20000);
+    expect(profe.nombre).toBe("Dr. Ramirez");
+    expect(profe.legajo).toBe(20000);
   });
-test("un profesor debe tener un nombre y legajo", () => {
-    const profesor = new Profesor("Dr. Piragine", 20020);
 
-    expect(profesor.nombre).toBe("Dr. Piragine");
-    expect(profesor.legajo).toBe(20020);
+  test("un profesor debe tener un nombre y legajo", () => {
+    const profe = new profesor("Dr. Piragine", 20020);
+
+    expect(profe.nombre).toBe("Dr. Piragine");
+    expect(profe.legajo).toBe(20020);
   });
+
 });
